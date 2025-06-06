@@ -56,4 +56,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.aws.android.sdk.core)
+    implementation(libs.aws.android.sdk.transcribe)
+    implementation(libs.aws.android.sdk.s3)
 }
