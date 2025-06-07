@@ -60,4 +60,9 @@ dependencies {
     implementation(libs.aws.android.sdk.core)
     implementation(libs.aws.android.sdk.transcribe)
     implementation(libs.aws.android.sdk.s3)
+
+    implementation(libs.androidx.material.icons.extended)
+    implementation(libs.accompanist.permissions)
+
+
 }
